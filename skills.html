@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills</title>
+</head>
+<body>
+    <!-- Nesting a table -->
+    <table border="2px black solid">
+        <tr>
+            <td>
+                <table border="2px black solid">
+                    <tr>
+                        <td>Table 1</td>
+                        <td>T1</td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <table border="2px black solid">
+                    <tr>
+                        <td>Table 2</td>
+                        <td>T2</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <h1> special form abilities </h1>
+    <form action="" method="get">
+        <h3>label and input for simple text</h3>
+        <label for="name">Name</label>
+        <input type="text" name="" id="">
+        <h3>Email label and input</h3>
+        <label for="email">Email</label>
+        <input type="email" name="" id="" value="" placeholder="insert email here">
+        <h3>Password label and input</h3>
+        <label for="password">Password</label>
+        <input type="password" name="" id="" value="">
+        <h3>color picker</h3>
+        <input type="color" name="" id="">
+        <h3>number picker</h3>
+        <label for="number">pick a number between 1 and 1000</label>
+        <input type="number" name="" id="" min="1" max="1000">
+        <h3>date picker from a calender</h3>
+        <label for="start">pick a date:</label>
+        <input type="date" name="trip-start" id="start" value="2023-02-01">
+        <h3>Time picker</h3>
+        <label for="time">Select the meeting time</label>
+        <input type="time" name="" id="" min="1:00" max="12:00">
+        <h3>date and time picker</h3>
+        <label for="time">pick date and time: </label>
+        <input type="datetime-local" name="" id="" value="2023-02-01T00:00">
+        <h3>file selector</h3>
+        <label for="file">Grab a file from desktop</label>
+        <input type="file" name="" id="">
+        <h3>choice selector</h3>
+        <p> Are you male or female</p>
+        <input type="radio" name="gender" id="male" >
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" >
+        <label for="female">Female</label>
+        <h3>range selector</h3>
+        <input type="range" name="Audio" id="Audio" min="1" max="10">
+        <label for="Audio">Audio</label>
+        <h3>Url selector</h3>
+        <label for="url">Enter a https:// URL:</label>
+        <input type="url" name="" id="" placeholder="https://example.com" pattern="https://.*" size="30">
+        <h3>checkbox</h3>
+        <label for="checkbox">Save email and password?</label>
+        <input type="checkbox" name="" id="">
+        <h3>Image as button</h3>
+        <input type="image" src="data:image/jpeg;base64,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" alt="oops not found">
+        <h3>submit button</h3>
+        <input type="submit" value="Submit">
+        <input type="hidden" name="demonstrationform" id="demonstrationform" value="34657">
+
+        
+
+
+
+
+    </form>
+</body>
+</html> 
